@@ -11,19 +11,21 @@
 
     <script>
         function onLoad(){
-           var urlLink = "http://www.instagram.com/OwenDunnigan";
-           var urlLink2 = "http://www.twitter.com/OwenDunnigan";
-           var urlLink3 = "http://www.facebook.com/OwenDunnigan";
-           var ua = navigator.userAgent.toLowerCase();
-           var isAndroid = ua.indexOf("android") > -1;
-           if(isAndroid) {
-              urlLink = "instagram://user?username=owendunnigan";
-              urlLink2 = "twitter://user?username=owendunnigan";
-              urlLink3 = "facebook://user?username=owendunnigan";
-           }
-           document.getElementById('yourLink').setAttribute('href', urlLink);
-           document.getElementById('yourLink2').setAttribute('href', urlLink2);
-           document.getElementById('yourLink3').setAttribute('href', urlLink3);
+        //    var urlLink = "http://www.instagram.com/OwenDunnigan";
+        //    var urlLink2 = "http://www.twitter.com/OwenDunnigan";
+        //    var urlLink3 = "http://www.facebook.com/OwenDunnigan";
+        //    var ua = navigator.userAgent.toLowerCase();
+        //    var isAndroid = ua.indexOf("android") > -1;
+        //    if(isAndroid) {
+        //       urlLink = "instagram://user?username=owendunnigan";
+        //       urlLink2 = "twitter://user?username=owendunnigan";
+        //       urlLink3 = "facebook://user?username=owendunnigan";
+        //    }
+
+        urlLink = "kncusa://";
+        document.getElementById('yourLink').setAttribute('href', urlLink);
+        //    document.getElementById('yourLink2').setAttribute('href', urlLink2);
+        //    document.getElementById('yourLink3').setAttribute('href', urlLink3);
         }
         window.onload = onLoad;
         </script>
