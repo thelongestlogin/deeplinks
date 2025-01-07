@@ -1,2 +1,2 @@
 console.log('Hello');
-window.open("kncusa://")
+// window.open("kncusa://")
