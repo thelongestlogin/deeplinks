@@ -1,2 +1,2 @@
 console.log('Hello');
-alert('Hellow!');
+window.open("kncusa://")
